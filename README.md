@@ -30,7 +30,7 @@ As a coding bootcamp student, I created a simple calendar application that allow
 
 ## Preview
 
-<img width="1269" alt="SchedulerExample" src="https://user-images.githubusercontent.com/99048123/210012709-ff7c509d-24ec-4046-91ec-e9202b6f980d.png">
+
 
 
 ## Link
