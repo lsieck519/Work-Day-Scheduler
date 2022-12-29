@@ -1,13 +1,14 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1em;
+  line-height: 1.5;
 }
 
 textarea {
   background: transparent;
   border: none;
   resize: none;
-  padding: 5px;
+  padding: 12px;
   font-size: 1.1em;
 }
 
@@ -42,13 +43,13 @@ button {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   background-color: #24b8c3;
-  color: #464646;
+  color: white;
   font-size: 1.5em;
 }
 
 button:hover {
   font-size: 1.7em;
-  color: white;
+  color: #464646;
   transition: all 0.3s ease-in-out;
 }
 
