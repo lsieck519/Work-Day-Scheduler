@@ -1,59 +1,57 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
 }
 
 textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+  padding: 5px;
+  font-size: 1.1em;
 }
 
-.description {
-  white-space: pre-wrap;
+.calendar-row:hover {
+  font-size: 1.2em;
 }
 
-.time-block {
-  border-radius: 15px;
+.past-hour {
+  background-color: #b3b1b1;
+  color: black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-.row {
-  border-top: 1px solid white;
+.present-hour {
+  background-color: #dd5c60;
+  color: black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+.future-hour {
+  background-color: #4cce4c;
+  color: black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-.past {
-  background-color: #d3d3d3;
+button {
+  border-left: 3px solid rgb(25, 163, 176);
+  border: 2px solid rgb(25, 163, 176);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #24b8c3;
+  color: #464646;
+  font-size: 1.5em;
+}
+
+button:hover {
+  font-size: 1.7em;
   color: white;
-}
-
-.present {
-  background-color: #ff6961;
-  color: white;
-}
-
-.future {
-  background-color: #77dd77;
-  color: white;
-}
-
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+header, footer {
+  margin: 2.5em;
 }
