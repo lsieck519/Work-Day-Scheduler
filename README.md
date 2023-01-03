@@ -30,6 +30,7 @@ As a coding bootcamp student, I created a simple calendar application that allow
 
 ## Preview
 
+![Scheduler Example](https://user-images.githubusercontent.com/99048123/210389016-bbe930b0-7511-4d05-a7de-13aa3016e8d2.png)
 
 
 
